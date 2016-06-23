@@ -1,5 +1,9 @@
 # Redact
 
+** Lazy fork for USQ specifics **
+
+This version has been edited to be more specific to the USQ context.
+
 **Userscript to redact parts of a web page for privacy such as during live demos**
 
 Nothing fancy here.  A simple [Userscript](https://github.com/OpenUserJs/OpenUserJS.org/wiki/Userscript-beginners-HOWTO) written using javascript that can be installed under [Greasemonkey](http://www.greasespot.net/) (and maybe [Tampermonkey](https://tampermonkey.net/)) for redacting elements of a page, according to css selectors provided in the script.  
