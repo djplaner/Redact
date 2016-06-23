@@ -1,6 +1,6 @@
 # Redact
 
-** Lazy fork for USQ specifics **
+**Lazy fork for USQ specifics**
 
 This version has been edited to be more specific to the USQ context.
 
