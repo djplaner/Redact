@@ -4,9 +4,11 @@
 
 This version has been edited to be more specific to the USQ context.
 
-**Userscript to redact parts of a web page for privacy such as during live demos**
+**What is it?**
 
-Nothing fancy here.  A simple [Userscript](https://github.com/OpenUserJs/OpenUserJS.org/wiki/Userscript-beginners-HOWTO) written using javascript that can be installed under [Greasemonkey](http://www.greasespot.net/) (and maybe [Tampermonkey](https://tampermonkey.net/)) for redacting elements of a page, according to css selectors provided in the script.  
+Redact is a userscript that will redact (blur) parts of a USQ Study Desk web page that contain user identifying information (e.g. photos, names).  It is typically used when doing live demostrations of the Study Desk and wishing to protect the privacy of students and staff.
+
+It is a simple [Userscript](https://github.com/OpenUserJs/OpenUserJS.org/wiki/Userscript-beginners-HOWTO) written using javascript that can be installed under [Greasemonkey](http://www.greasespot.net/) and [Tampermonkey](https://tampermonkey.net/)) for redacting elements of a page, according to css selectors provided in the script.  
 
 The script comes with css specifically for the [Moodle Learning Management System](https://moodle.org/), to hide personal details of students during demonstrations.  Can be changed to redact whatever it is you need to keep private.
 
@@ -14,9 +16,11 @@ It could be made a little more sophisticated and extensible with external json s
 
 ## Usage
 
-[Install Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) into your Firefox browser.
+**Note:** This version of Redact is designed to work with USQ's StudyDesk installation of Moodle.
 
-Then [install Redact](https://raw.githubusercontent.com/damoclark/Redact/master/Redact.user.js).
+[Install Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) into your Firefox browser (or [Tampermonkey](https://tampermonkey.net/) for other browsers)
+
+Then [install Redact](https://github.com/djplaner/Redact/raw/master/Redact.user.js).
 
 Enable it in the Greasemonkey Add-ons UI when you want to redact, and disable when not.
 
