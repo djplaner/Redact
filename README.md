@@ -14,7 +14,7 @@ The script comes with css specifically for the [Moodle Learning Management Syste
 
 It could be made a little more sophisticated and extensible with external json sources providing the css selectors for redacting.  Contributions welcome.
 
-## Usage
+## Installation
 
 **Note:** This version of Redact is designed to work with USQ's StudyDesk installation of Moodle.
 
