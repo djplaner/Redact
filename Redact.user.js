@@ -34,6 +34,10 @@ try
       'span.ui-id-1',
       'table.studentInfo tbody tr:nth-child(3) td',
       'table.studentAccess tbody tr td:nth-child(1), table.studentAccess tbody tr td:nth-child(2), table.studentAccess tbody tr td:nth-child(3)',
+      
+      // more student details
+      'span#ui-id-4.ui-dialog-title', // title for dialog
+      'div#moreStudentDetails table tr td'  // cells in table with personal information
     ] ;
 
     var redact_image =
